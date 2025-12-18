@@ -1,0 +1,128 @@
+## CV data for Madhur Thareja
+
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Madhur Thareja
+    - name: Email
+      value: <a href="mailto:madhurthareja1105@gmail.com">madhurthareja1105@gmail.com</a>
+    - name: Dual Major
+      value: B.S. Electronic Systems (IIT Madras) + B.Sc.(H) Computer Science (BITS Pilani), Class of 2027
+    - name: Research Focus
+      value: Multimodal reasoning, generative modeling, embedded intelligence, and hardware–software co-design for end-to-end autonomous systems.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. Electronic Systems (CGPA 8.43)
+      institution: Indian Institute of Technology Madras, Chennai, India
+      year: 2023 – 2027 (expected)
+      description:
+        - Coursework across signal processing, control, robotics, and embedded AI with extensive lab experience.
+        - Led independent research on autonomous mobility platforms integrating LiDAR, stereo vision, GPS, and IMU sensing.
+    - title: B.Sc.(H) Computer Science (CGPA 9.87)
+      institution: Birla Institute of Technology & Science Pilani, Rajasthan, India
+      year: 2023 – 2027 (expected)
+      description:
+        - Deepened foundations in algorithms, distributed systems, and database design.
+        - Focused electives on computer vision, multimodal learning, and reinforcement learning.
+
+- title: Publications & Demonstrations
+  type: time_table
+  contents:
+    - title: PAL — Personalised Adaptive Learning System
+      year: AAAI 2026 Demonstration (accepted)
+      description:
+        - Developed the multi-agent multimodal reasoning module with VLM grounding, uncertainty estimation, and RL-based adaptation.
+        - Showcases how uncertainty-aware policies tailor learning plans for diverse student profiles.
+    - title: CANDI — Context-Aware NeuroSymbolic Domain Intelligence
+      year: Under revision
+      description:
+        - Built multimodal alignment components and evaluation pipelines for role-aware/task-aware prompting.
+        - Benchmarked semantic faithfulness using BERTScore, BLEURT, MoverScore, and cosine similarity across LLMs.
+
+- title: Research & Engineering Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: University of Pittsburgh, School of Medicine (Remote)
+      year: Nov 2025 – Present
+      description:
+        - Contributing to LivecellX, a Python-based framework for segmenting, tracking, and analyzing single-cell trajectories in live-cell imaging datasets.
+        - Evaluating Ultrack and other tracking models to improve robustness under segmentation ambiguity and extreme class imbalance.
+    - title: Research Intern
+      institution: Carnegie Mellon University (Remote)
+      year: Aug 2025 – Present
+      description:
+        - Coupled MedGemma VLM perceptual features with clinically structured reasoning pathways for MediLLM.
+        - Extended MMedRAG via symbolic filtering and controlled retrieval to improve factual grounding and reduce hallucinations.
+        - Designed a triage-oriented multi-speciality agent system plus an Easy-to-Hard trainer modeling diagnosis as progressive refinement.
+    - title: Research Intern
+      institution: AI Institute of South Carolina (Remote)
+      year: Jun 2025 – Dec 2025
+      description:
+        - Built PAL’s multi-agent multimodal reasoning stack combining VLM-based semantic grounding with uncertainty-weighted RL policies.
+        - Studied role-aware and task-aware prompting strategies for domain-specific reasoning faithfulness.
+        - Co-authored the AAAI 2026 PAL demonstration paper.
+    - title: Chip Design Studio Fellow (National Rank #2)
+      institution: Samsung Semiconductor Research & IIIT Bangalore, Bengaluru, India
+      year: Jan 2025 – Feb 2025
+      description:
+        - Designed and verified single-cycle and 5-stage pipelined RISC-V microarchitectures across ZCU104, DE0-Nano, and Pynq-Z1 FPGA platforms.
+        - Completed the RTL-to-GDSII flow in Cadence Genus/Innovus (45nm PDK) with functional equivalence validated in Conformal LEC.
+        - Implemented UART, PWM, frequency-scaling, and color-detection IP blocks and integrated them into a robotics control pipeline.
+    - title: Research Intern
+      institution: IIT Guwahati, Guwahati, India
+      year: Summer 2025
+      description:
+        - Investigated object detection in low-SNR sonar imagery via CLAHE contrast enhancement, Gaussian denoising, and sonar-specific augmentations.
+        - Benchmarked YOLOv8n, Faster R-CNN, SSD, and AquaYOLO; achieved "mAP@0.5 = 0.9477" and "F1 = 0.9299" after addressing dataset leakage.
+    - title: Undergraduate Researcher — Autonomous Smart Wheelchair
+      institution: IIT Madras, Chennai, India
+      year: 2024 – 2025
+      description:
+        - Engineered a semi-autonomous mobility system fusing LiDAR, stereo cameras, GPS, and IMU for a unified 360° environment model.
+        - Built a distributed control stack (Raspberry Pi 5 + ESP32) enabling low-latency multi-camera streaming, teleoperation, and real-time loops.
+        - Implemented obstacle detection, emergency overrides, and IMU-corrected dead-reckoning for GPS-degraded navigation.
+
+- title: Open Source Contributions
+  type: time_table
+  contents:
+    - title: Intel OpenVINO Toolkit — Contributor
+      year: 2025
+      description:
+        - Implemented the Equal elementwise operator for RISC-V RVV 1.0, including fp32 RVV JIT emitter design and vectorization extensions in the CPU backend.
+
+- title: Systems Background
+  type: list
+  contents:
+    - Coursework and projects covering computer networking (link-to-transport), operating systems, distributed systems, and cloud-native deployment.
+    - Experience with relational and graph databases plus algorithmic foundations spanning advanced data structures and optimization.
+    - Full-stack understanding from sensing and perception to reasoning, control, and embedded deployment.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: ML / AI
+      items:
+        - Multimodal alignment, reinforcement learning, retrieval systems, uncertainty-aware policies, model compression, PyTorch.
+    - title: Signal & Vision
+      items:
+        - Sonar imaging, low-SNR enhancement, VLMs, feature extraction, sensor fusion.
+    - title: Hardware & Embedded
+      items:
+        - Verilog/SystemVerilog, RISC-V ISA, FPGA prototyping, RTL-to-GDSII flow, robotics platforms.
+    - title: Systems & Data
+      items:
+        - Computer networks, distributed systems, cloud deployment, Linux tooling, SQL/NoSQL/knowledge graphs.
+    - title: Tools & Languages
+      items:
+        - ROS2, Vivado, Quartus, Cadence Genus/Innovus, MATLAB, Bash, Python, C++, C, Java.
+
+- title: Academic Interests
+  type: list
+  contents:
+    - Multimodal grounding with uncertainty-aware reasoning for high-stakes decision making.
+    - Neuro-symbolic integration and structured prompting for domain-constrained intelligence.
+    - Hardware–software co-design for efficient, trustworthy autonomous systems.
