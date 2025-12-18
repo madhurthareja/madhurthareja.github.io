@@ -44,9 +44,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick python3-pip
+
+      - name: Install Jupyter runtime
+        run: |
+          pip3 install --upgrade pip
+          pip3 install --upgrade jupyter
+
+      - name: Build site 🔧
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --baseurl ""
+
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
+        env:
+          LYCHEE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+          args: "--offline --root-dir ./_site --scheme file --remap '(file://[^?]+)\?.*$ $1' --verbose --no-progress '_site/**/*.html'"
