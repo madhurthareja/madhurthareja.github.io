@@ -25,4 +25,3 @@ I currently split my research time between the University of Pittsburgh School o
 On the hardware and systems side, I earned a national podium finish at Samsung Semiconductor's Chip Design Studio by crafting single-cycle and pipelined RISC-V microarchitectures and closing RTL-to-GDSII flows in Cadence Genus/Innovus. I also co-led the Autonomous Smart Wheelchair project at IIT Madras, architecting a fused LiDAR/stereo/GPS/IMU stack with distributed control, and I contribute to Intel's OpenVINO Toolkit for RISC-V RVV 1.0 backends.
 
 My goal is to keep shrinking the gap between high-level reasoning and low-level actuation, enabling reliable autonomy in healthcare, mobility, and human-assistive settings. Feel free to reach out if you'd like to collaborate on multimodal agents, uncertainty-aware perception, or embedded deployments.
-
