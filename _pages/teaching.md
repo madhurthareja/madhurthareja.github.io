@@ -7,79 +7,32 @@ nav: true
 nav_order: 6
 ---
 
-<style>
-	.teaching-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 1.5rem;
-		margin-top: 1.5rem;
-	}
+## Teaching Assistantships
 
-	.teaching-card {
-		padding: 1.5rem;
-		border-radius: 18px;
-		border: 1px solid rgba(15, 23, 42, 0.08);
-		background: #fff;
-		box-shadow: 0 20px 40px rgba(15, 23, 42, 0.07);
-	}
+### Artificial Intelligence & Machine Learning — IIT Patna (Masai) · Oct 2025 – Present
 
-	.teaching-card h3 {
-		margin-top: 0;
-		margin-bottom: 0.4rem;
-	}
+Teaching assistant supporting project intensive cohorts. I host office hours for students building CV/NLP capstones and help them learn the concepts with clarity and interest.
 
-	.teaching-meta {
-		font-size: 0.9rem;
-		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		color: var(--global-text-color-light, #6b7280);
-		margin-bottom: 0.75rem;
-	}
+**Highlights**
 
-	.teaching-card ul {
-		margin: 0;
-		padding-left: 1.2rem;
-		color: var(--global-text-color-light, #6b7280);
-	}
+- Co-designed problem sets that connect lecture theory with edge deployments.
+- Organized debugging sessions focused on data hygiene and evaluation best practices.
 
-	.teaching-card li + li {
-		margin-top: 0.35rem;
-	}
+## CS503-Intro to Deep Learning - IIT Ropar  . Aug 2024 - Nov 2025
 
-	.teaching-page-intro {
-		font-size: 1.05rem;
-		line-height: 1.7;
-	}
-</style>
+Teaching assistant supporting development of lab exercises, assisting professor with design of tutorials and the assessments for varied batch ranging from Bachelor's, Master's and PhD candidates.
 
-<p class="teaching-page-intro">
-	I enjoy translating research systems into hands-on learning experiences. Below are the teaching assistant roles where I
-	designed labs, mentored project teams, and ran live debugging clinics for large cohorts.
-</p>
+**Highlights**
 
-<section class="teaching-grid">
-	<article class="teaching-card">
-		<div class="teaching-meta">IIT Patna (Masai) · Oct 2025 – Present</div>
-		<h3>Artificial Intelligence and Machine Learning</h3>
-		<p>Teaching Assistant</p>
-		<!-- <ul>
-			<li>Designed FPGA-based labs that visualized FIR/IIR pipelines, spectral leakage, and adaptive filtering.</li>
-			<li>Created MATLAB + Python notebooks to contrast fixed-point and floating-point implementations.</li>
-			<li>Evaluated project check-ins with rubrics emphasizing interpretability and reproducibility.</li> -->
-		</ul>
-	</article>
-</section>
+- Designed problems which inspired the students to build models instead of just learning about them. 
+- Carried out various lab exercises which connected lectures to the real world applications
 
-<section class="teaching-grid">
-	<article class="teaching-card">
-		<div class="teaching-meta">IIT Ropar(NPTEL) · August 2024 – Oct 2025</div>
-		<h3>Discrete Mathematics, Social Networks</h3>
-		<p>Teaching Assistant</p>
-		<!-- <ul>
-			<li>Ran weekly hardware bring-up sessions for ~120 freshmen covering MCU peripherals, UART, and PWM control.</li>
-			<li>Built reference solutions that combined STM32 firmware with ROS2 teleoperation demos.</li>
-			<li>Introduced rapid prototyping clinics so teams could iterate on sensing stacks before evaluation day.</li>
-		</ul> -->
-	</article>
-</section>
+### Discrete Mathematics & Social Networks — IIT Ropar (NPTEL) · Aug 2024 – Oct 2025
+
+Supported a nationwide MOOC by answering forum questions, recording short recap sessions, and curation of graph theory based assignments and several other conceptual case studies which helped the learners grasp the concepts independently and with rigour
+
+**Highlights**
+
+- Led Q&A forums covering combinatorics and graph diffusion models.
+- Created notebook templates so learners could verify proofs and simulations step-by-step.
 
