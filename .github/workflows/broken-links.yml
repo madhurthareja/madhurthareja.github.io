@@ -71,4 +71,7 @@ jobs:
           LYCHEE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           fail: true
-          args: "--offline --root-dir ./_site --scheme file --remap '(file://[^?]+)\?.*$ $1' --verbose --no-progress '_site/**/*.html'"
+          args: >-
+            --offline --root-dir ./_site --scheme file
+            --remap '(file://[^?]+)\?.*$ $1'
+            --verbose --no-progress '_site/**/*.html'
