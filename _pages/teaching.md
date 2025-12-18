@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-## Teaching Assistantships
 
 ##### Artificial Intelligence & Machine Learning — IIT Patna (Masai) · Oct 2025 – Present
 
@@ -18,7 +17,7 @@ Teaching assistant supporting project intensive cohorts. I host office hours for
 - Co-designed problem sets that connect lecture theory with edge deployments.
 - Organized debugging sessions focused on data hygiene and evaluation best practices.
 
-#### CS503-Intro to Deep Learning - IIT Ropar  . Aug 2024 - Nov 2025
+##### CS503-Intro to Deep Learning - IIT Ropar  . Aug 2024 - Nov 2025
 
 Teaching assistant supporting development of lab exercises, assisting professor with design of tutorials and the assessments for varied batch ranging from Bachelor's, Master's and PhD candidates.
 
