@@ -35,6 +35,7 @@ on:
 
 jobs:
   lighthouse-badger-easy:
+    if: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
